@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos_peso_ideal.css">
+    <script src="calculadora.js"></script>
+</head>
+<body id="body">
+
+<!-- barra principal -->
+
+    <div id="barra_principal">
+        <h1 class="titulo1"> caluladora de peso optimo </h1>
+        <a href="index.html" id="vuelta">volver al inicio</a>
+    </div>
+
+<!-- apartado explicativo -->
+
+    <div id="explicacion"> 
+        <h2 class="titulo2"> ¿como se calcula? </h2> 
+        <p class="texto"> tu peso optimo se calcula mediante el metodo lorentz que deriva de la formula de broca, en esta formula se tiene en cuenta el sexo de la persona para hacer una adecuada <u>estimación</u> acerca del peso optimo o ideal de una persona adulta.</p>
+        <p class="texto">la formula para hombres es: <br> <img src="imagenes/peso para hombres.png" alt=""> </p>
+        <p class="texto">la formula para mujeres es: <br> <img src="imagenes/peso para mujeres.png" alt=""> </p>
+
+        <p class="texto">se resalta la importancia de saber que esto solo es una estimacion y por ende no es 100% segura,<br> y es recomendable que te dirigas a tu medico para saber el mejor peso adecuado para ti.</p>
+    </div>
+
+<!-- calculadora -->
+
+    <div id="calculadora">
+        
+        <h2 class="titulo2">calculadora</h2>
+        
+        <div id="ingreso">
+            
+            <div id="dato_altura">
+        
+                <label for="altura"> estatura (cm):</label><br>
+                <input type="number" id="altura" > cm
+
+            </div>
+
+            <div id="dato_sexo">
+
+                <label for="sexo">sexo (biologico):</label><br>
+                <select name="sexobiologico" id="sexo">
+                    <option value="masculino">HOMBRE</option>
+                    <option value="femenino">MUJER</option>
+                </select>
+
+            </div>
+            
+            <button onclick="calcularPesoIdeal()" id="calcular">calcular</button>
+            
+        </div>
+
+        <div >
+            <p id="resultado">Tu peso optimo es de:</p>
+        </div>
+
+    </div>
+    <div id="creditos">
+        <div id="informacion">
+            pagina creada y editada por: <br> 
+            jemerson daniel morostoque hurtado (2420834-3751) <br>
+            facultad de ingenierias, ingenieria industrial <br>
+            universidad del valle <br>
+            fecha de entrega: 13/06/2024 <br>
+            correo electronico: <br>
+            jemerson.morostoque@correounivalle.edu.co <br>
+            telefono: xxx-xx-xx <br>
+            celular: 312-296-25-99
+
+                
+
+        </div>
+        <img src="imagenes/logoUV_Oficial_Rojo.jpg" alt="" id="imgof"> 
+    </div>
+
+</body>
+</html>

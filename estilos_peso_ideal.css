@@ -1,0 +1,147 @@
+#body{
+    background-color: rgb(40, 40, 40);
+    align-content: center;
+    width: 99%;
+    margin: 0.5%;
+    font-size: 90%;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* barra principal */
+
+#barra_principal{
+    background-color: black;
+    font-size: large;
+    align-items: center;
+    padding: 0.7%;
+    border-radius: 10px;
+}
+
+.titulo1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin-top: -0.2%;
+}
+
+#vuelta{
+
+    background-color: white;
+    text-transform: uppercase;
+    color: black;
+    padding: 0.3%;
+    border-radius: 10px;
+}
+
+/* barra de explicacion */
+
+#explicacion{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 1%;
+    font-size: large;
+    align-content: center;
+    padding: 0.2%;
+}
+
+.titulo2{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto{
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* calculadora */
+
+#calculadora{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5%;
+    margin-top: 1%;
+}
+
+#ingreso{
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: flex;
+}
+
+#dato_altura{
+    font-size: large;
+    border-radius: 10px;
+}
+
+#altura{
+    margin-top: 5%;
+}
+
+#dato_sexo{
+    font-size: large;
+    margin-left: 5%;
+}
+
+#sexo{
+    font-size: medium;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+#dato_peso_actual{
+    font-size: large;
+    text-transform: uppercase;
+    margin-left: 5%;
+}
+
+#peso{
+    margin-top: 5%;
+}
+
+#calcular{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+
+#resultado{
+    text-transform: uppercase;
+    margin-left: 2%;
+}
+
+#creditos{
+    background-color: black;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#informacion{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 160%;
+    font-size: medium;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#imgof{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: auto;
+    max-height: 180px;
+}

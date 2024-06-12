@@ -1,0 +1,331 @@
+#body{
+    background-color: gray;
+    align-content: center;
+    width: 99%;
+    max-width: 100%;
+    margin: 0.5%;
+    font-size: 90%;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+a :visited{
+    color: black;
+}
+
+/* barra de navegacion */
+
+#navbar{
+    background-color: black;
+    align-content: center;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 150px;
+}
+
+#titulo{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 1%;
+    max-width: 90%;
+}
+
+.cajas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.links{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display:block;
+    margin-left: 2%;
+    padding: 1%;
+    align-content: center;
+    text-transform: uppercase;
+    font-size: 90%;
+    min-width: max-content;
+}
+
+.links :hover{
+    background-color: gray;
+}
+
+#buscador{
+    margin-left: 2%;
+    height: fit-content;
+    min-height: 30px;
+    align-content: center;
+    align-items: center;
+    margin-top: 0.7%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* acerca de nosotros */
+
+#presentacion{
+    width: 100%;
+    background-image: url(imagenes/bienvenida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    min-height: 250px;
+    color: white;
+    max-width: 98%;
+    line-height: 140%;
+    margin-top: 1.5%;
+    padding: 1%;
+}
+
+#subtitulo1{
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.parrafos{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+/* recetas */
+
+#recetas{
+    align-items: center;
+    align-content: center;
+    background-image: url(imagenes/cook-2364221_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 2%;
+    color: black;
+}
+
+.contenido{
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 480px;
+    max-height: 480px;
+    align-items: center;
+    align-content: center;
+    margin-left: 6.5%;
+    background-color: white;
+    margin-top: 2%;
+}
+#recetas :hover{
+    color: blue;
+}
+.contenido :visited{
+    color: black;
+}
+
+/* apartado de cada recetas */
+
+#pechugas{
+    background-image: url(imagenes/imagenes_recetas/pechuga_de_pollo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+    border-radius: 10px;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#huevo{
+    background-image: url(imagenes/imagenes_recetas/galletas-sin-huevo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#manuelitas{
+    background-image: url(imagenes/imagenes_recetas/manuelitas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#natilla{
+    background-image: url(imagenes/imagenes_recetas/natilla-colombiana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#arroz_integral{
+    background-image: url(imagenes/imagenes_recetas/arroz_integral.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#helado_mora{
+    background-image: url(imagenes/imagenes_recetas/helado_mora.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#rollito{
+    background-image: url(imagenes/imagenes_recetas/rollito-de-queso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+#muslos{
+    background-image: url(imagenes/imagenes_recetas/muslos-de-pollo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10%;
+    color: black;
+    min-height: 250px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+
+
+.nombre{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+
+}
+
+.infoge{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 2;
+}
+
+.ingre{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: none;
+}
+
+.prep{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #body{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #body{
+        width: 100%;
+    }
+}
+
+#arriba{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#i{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-size: 300%;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+}
+
+/* zona final */
+
+#creditos{
+    background-color: black;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#informacion{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 160%;
+    font-size: medium;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#imgof{
+    float: right;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin-top: 1%;
+    max-height: 180px;
+}

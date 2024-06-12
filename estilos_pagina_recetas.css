@@ -1,0 +1,77 @@
+#body{
+    background-color: gray;
+    align-content: center;
+    width: 99%;
+    max-width: 100%;
+    margin: 0.5%;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    margin-left: 1%;
+}
+a :visited{
+    color: black;
+}
+#navbar{
+    background-color: black;
+    align-content: center;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    min-height: 200px;
+}
+h1{
+    color: white;
+    margin-left: 1%;
+    font-size: 300%;
+}
+#inforeceta{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1%;
+    margin-top: 1%;
+}
+img{
+    float: right;
+    min-height: 200px;
+    max-height: 200px;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+#preparacion{
+    text-transform: none;
+}
+
+#creditos{
+    background-color: black;
+    margin-top: 1.5%;
+    border-radius: 10px;
+    color: white;
+    padding: 1%;
+    display: flex;
+}
+
+#informacion{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 160%;
+    font-size: medium;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#imgof{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: auto;
+}
